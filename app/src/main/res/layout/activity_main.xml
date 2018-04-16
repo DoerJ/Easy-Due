@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/main_background"
+    tools:context="com.example.rockman.easy_due.prj1.example.rockman.easy_due.MainActivity">
+
+    <TextView
+        android:id="@+id/task_icon"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:background="@drawable/task_board"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/newtask_button"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/task_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_task" />
+
+    <TextView
+        android:id="@+id/schedule_circle"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/newtask_button"
+        android:background="@drawable/schedule_circle"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:id="@+id/myschedule_button"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/schedule_circle"
+        android:background="@drawable/btn_schedule" />
+
+</RelativeLayout>

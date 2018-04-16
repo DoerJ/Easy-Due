@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/task_background">
+
+    <Button
+        android:id="@+id/get_backfromTask"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back_arrow" />
+
+    // new_task page title
+    <TextView
+        android:id="@+id/task_main"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/get_backfromTask"
+        android:background="@drawable/add_task" />
+
+    // text_icon
+    <TextView
+        android:id="@+id/text_icon"
+        android:layout_below="@id/task_main"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/text_icon" />
+
+    // task name input
+    <EditText
+        android:id="@+id/task_name"
+        android:layout_below="@id/task_main"
+        android:layout_toRightOf="@id/text_icon"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="45dp"
+        android:layout_alignRight="@id/task_main"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:background="@drawable/task_enter"/>
+
+    // task name hint
+    <TextView
+        android:id="@+id/task_hint"
+        android:layout_width="160dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/task_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/text_icon"
+        android:layout_alignRight="@id/task_name"
+        android:background="@drawable/name_task" />
+
+    // clock icon
+    <TextView
+        android:id="@+id/clock_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/text_icon"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/clock" />
+
+    // day
+    <TextView
+        android:id="@+id/task_date"
+        android:background="@drawable/day"
+        android:layout_width="40dp"
+        android:layout_height="11dp"
+        android:layout_below="@+id/task_hint"
+        android:layout_toRightOf="@id/clock_icon"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="95dp" />
+
+    // input for day
+    <TextView
+        android:id="@+id/time_inputforday"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/task_hint"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/task_date"
+        android:background="@android:color/transparent" />
+
+    // date underline
+    <View
+        android:id="@+id/UnderLine_day"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/time_inputforday"
+        android:layout_toRightOf="@id/task_date"
+        android:layout_alignRight="@id/task_main"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/time_input" />
+
+    // time
+    <TextView
+        android:id="@+id/task_time"
+        android:layout_toRightOf="@id/clock_icon"
+        android:background="@drawable/time"
+        android:layout_width="45dp"
+        android:layout_height="11dp"
+        android:layout_below="@id/task_date"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="32dp" />
+
+    // input for time
+    <TextView
+        android:id="@+id/time_inputfortime"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/UnderLine_day"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@id/task_time"
+        android:inputType="textPersonName"
+        android:background="@null" />
+
+    // time underline
+    <View
+        android:id="@+id/UnderLine_time"
+        android:layout_width="70dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/time_inputfortime"
+        android:layout_alignRight="@id/task_main"
+        android:layout_toRightOf="@id/task_time"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/time_input" />
+
+    // due time hint
+    <TextView
+        android:id="@+id/due_hint"
+        android:layout_width="280dp"
+        android:layout_height="9dp"
+        android:layout_below="@id/task_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/specify_due" />
+
+    // complete button
+    <Button
+        android:id="@+id/task_complete"
+        android:background="@drawable/complete_btn"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:layout_below="@id/due_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+
+</RelativeLayout>

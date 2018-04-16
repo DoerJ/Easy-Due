@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/schedule_background" >
+
+    <LinearLayout
+        android:id="@+id/task_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/get_backfromSchedule"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/my_schedule"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:background="@drawable/my_tasks"
+            />
+
+    </LinearLayout>
+</ScrollView>
