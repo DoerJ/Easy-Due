@@ -1,18 +1,18 @@
 # Easy-Due
 
-BASIC INFO
+## Info
 - Java | xml
 - Utilization of SQLite for database 
 - Android Studio
 - Android API 22
 
-Functionalities
+## Functionalities
 - Create task with name and deadlines
 - View list of tasks featured by real-time countdown timer
 - Easily delete task
 - Notification when time is up
 
-Walkthrough
+## Walkthrough
 1. Enter the app with startup page (welcome page)
 2. Click "NEW TASK" to add task
 3. Fill in the info about the task (i.e., name, due date, and exact due time)
