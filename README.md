@@ -1,4 +1,5 @@
 # Easy-Due
+<img src="https://user-images.githubusercontent.com/30460622/38837815-46972c60-4188-11e8-9cbb-a9f5314d7dc0.JPG" width="300">
 
 ## Info
 - Java | xml
@@ -20,3 +21,4 @@
 5. Back to main screen and enter "MY SCHEDULE"
 6. View a list of tasks with real-time counterdown timer
 7. Simply click certain task to delete with a pop-up window for verification
+
