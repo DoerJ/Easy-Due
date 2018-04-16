@@ -22,3 +22,4 @@
 6. View a list of tasks with real-time counterdown timer
 7. Simply click certain task to delete with a pop-up window for verification
 
+<img src="https://user-images.githubusercontent.com/30460622/38838071-737044a0-4189-11e8-8359-b696135be5c2.JPG" width="280"> <img src="https://user-images.githubusercontent.com/30460622/38838072-7389ba66-4189-11e8-8d16-3e04a459fd5a.JPG" width="280"> <img src="https://user-images.githubusercontent.com/30460622/38838070-735a3eb2-4189-11e8-9b22-cf4ae6a2a756.JPG" width="280">
