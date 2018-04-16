@@ -3,7 +3,7 @@
 
 ## Info
 - Java | xml
-- Utilization of SQLite for database 
+- Utilization of SQLite for database
 - Android Studio
 - Android API 22
 
