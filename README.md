@@ -1,4 +1,6 @@
-# Easy-Due
+# Easy-Due 
+## A task management app featured with real-time timer
+Download at: https://play.google.com/store/apps/details?id=prj1.small_scale.rockman.easy_due FOR FREE!
 <img src="https://user-images.githubusercontent.com/30460622/38838375-a48c389a-418a-11e8-9738-3f7c5717a261.JPG" width="300">
 
 ## Info
