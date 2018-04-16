@@ -1,5 +1,5 @@
 # Easy-Due
-<img src="https://user-images.githubusercontent.com/30460622/38837815-46972c60-4188-11e8-9cbb-a9f5314d7dc0.JPG" width="300">
+<img src="https://user-images.githubusercontent.com/30460622/38838375-a48c389a-418a-11e8-9738-3f7c5717a261.JPG" width="300">
 
 ## Info
 - Java | xml
