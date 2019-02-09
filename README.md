@@ -3,19 +3,19 @@
 Download at: https://play.google.com/store/apps/details?id=prj1.small_scale.rockman.easy_due FOR FREE!
 <img src="https://user-images.githubusercontent.com/30460622/38840292-bb558ece-4193-11e8-87e3-39c665b27a22.jpg" width="250">
 
-## Info
+### Info
 - Java | xml
 - Utilization of SQLite for database
 - Android Studio
 - Android API 22
 
-## Functionalities
+### Functionalities
 - Create task with name and deadlines
 - View list of tasks featured by real-time countdown timer
 - Easily delete task
 - Notification when time is up
 
-## Walkthrough
+### Walkthrough
 1. Enter the app with startup page (welcome page)
 2. Click "NEW TASK" to add task
 3. Fill in the info about the task (i.e., name, due date, and exact due time)
